@@ -1,6 +1,6 @@
 # SAR Nets — Evaluation Script (`run_own_pth_ssrr.py`)
 
-![SAR Nets (Evaluated Models)](Evaluated_models.png)
+![SAR Nets (Evaluated Models)](Evaluted_models.png)
 
 This GitHub evaluates four semantic segmentation models in Search-and-Rescue (SAR) scenarios obtained from ground vehicles. Two base models are used (U-Net and PSPNet) to compare different approaches to semantic segmentation, such as skip connections between encoder and decoder stages and using a pooling pyramid module. The best base model is modified by including two attention mechanisms to analyze their performance and computational cost. We conduct a quantitative and qualitative evaluation using our SAR dataset defining eleven classes in disaster scenarios. The results demonstrate that the attention mechanisms increase model performance while minimally affecting the computation time.
 
@@ -8,9 +8,9 @@ This GitHub evaluates four semantic segmentation models in Search-and-Rescue (SA
 
 ## Figures
 
-![Table](Tabla.png)
+![Table](Table.png)
 
-![Evaluated Models](Evaluted_models.png)
+![Graphical Comparison](Graphical_comparison.png)
 
 ---
 
